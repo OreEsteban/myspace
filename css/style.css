@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root{
+	--color-contenido:#050201;
+	--color-anaranjado:#e65f1f;
+	--color-claro:#fcede6;
+	--color-gris:#aaaaaa;
+	--borde-gris:#cccccc;
+
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	color: var(--color-contenido);
+}
+
+/* HEADER ------------------------------HEADER---- */
+
+header{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+
+header a{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+
+header img{
+	width: 200px;
+}
+
+.sticky{
+	position: fixed;
+	background: #ffffff;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+/* -------------------------------------------- */
+
+
+/* HERO -------------------------------HERO---- */
+
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-contenido);
+}
+
+#hero{
+	color: var(--color-contenido);
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#hero h1{
+	font-size: 60px;
+	font-weight: 700;
+	margin-top: 10%;
+}
+
+#hero p{
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
+
+.btn-moto{
+	background-color: var(--color-anaranjado);
+	color: #fff;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	padding: 10px 60px;
+	box-shadow: 0px 0px 30px 5px var(--borde-gris);	
+}
+
+.btn-moto:hover{
+	background-color: #fff;
+}
+
+#hero h1, p, .btn-moto{
+	margin-left: 5%;
+}
+
+#hero .img-fluid{
+	text-align: center;
+	padding-left: 3%;
+}
+
+/* ---------------------------------------------*/
+
+
+
+
+#planes{
+	background-color: #fcede7;
+	padding: 3% 0 5% 0;
+}
+
+.card{
+}
+
+.card img{
+	border-radius: 8px;
+	border: 5px solid #e3611a;
+}
+
+.card p{
+	padding: 10px;
+	border: 3px solid #fff;
+	color: #e3611a;
+	font-size: 24px;
+}
+
+
+#funciona {
+	padding: 5% 0 5% 0;
+}
+
+
+work-tab{
+	box-shadow: 0px 0px 5px 5px;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+
+
+#work-tab .nav-link{
+	padding:10px 15px;
+	border-radius: 15px;
+	border:0;
+	color:#3F3F3F;
+	font-size: 20px;
+}
+
+#work-tab .active{
+	background-color: var(--color-anaranjado);
+	color: #FFFFFF
+}
+
+.nav-item{
+	padding: 15px 10px;
+}
+
+
+.tab-content p{
+	padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+/* FOOTER -----------------------FOOTER --*/
+
+footer{
+	text-align: center;
+	background-color: #eb6508;
+	margin-top: 20px;
+	color: #fff;
+	padding: 20px;
+}
+
+footer h6 {
+	margin: 20px;
+	color: #fff;
+}
+
+
+footer i{
+	width: 80px;
+	margin-top: 30px;
+}
+
+
+#icons{
+	font-size: 35px;
+	font-weight: 440;
+}
+
+/*------------------------------*/
+
+
