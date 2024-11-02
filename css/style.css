@@ -68,7 +68,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-.btn-moto{
+
+.btn-space{
 	background-color: var(--color-anaranjado);
 	color: #fff;
 	font-weight: 500;
@@ -78,8 +79,9 @@ h1,h2,h3,h4,h5,h6{
 	box-shadow: 0px 0px 30px 5px var(--borde-gris);	
 }
 
-.btn-moto:hover{
+.btn-space:hover{
 	background-color: #fff;
+	color: black;
 }
 
 #hero h1, p, .btn-moto{
@@ -154,10 +156,6 @@ work-tab{
 
 
 
-
-
-
-
 /* FOOTER -----------------------FOOTER --*/
 
 footer{
@@ -188,3 +186,45 @@ footer i{
 /*------------------------------*/
 
 
+/* MEDIA QUERIES */
+
+/*LG*/
+@media (min-width:1200px){
+	
+	
+}
+
+
+/* SM - TABLETA*/
+@media (min-width:600px) and(max-width:1200px){
+	
+	
+	
+}
+
+
+/* cel */
+@media (max-width:600px){
+	
+	#hero .img-fluid{
+		display: none;
+	}
+	
+	#hero{
+		text-align: center;
+		padding-bottom: 5%;
+	}
+	
+	.box-padding{
+		padding: 20px 20px;
+	}
+	
+	#work-tab .nav-link{
+		font-size: 16px;
+	}
+	
+	.titulos-centrado{
+		width: 100%;
+	}
+	
+}
